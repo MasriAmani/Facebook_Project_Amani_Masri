@@ -111,10 +111,10 @@ session_start();
                     </div>
                     <div class="form-group gender">
                       <label class="radio-inline">
-                        <input type="radio" name="gender" value ="1" checked>Male
+                        <input type="radio" name="gender" value ="Male" checked>Male
                       </label>
                       <label class="radio-inline">
-                        <input type="radio" name="gender" value="0">Female
+                        <input type="radio" name="gender" value="Female">Female
                       </label>
                     </div>
                     <div class="row">
