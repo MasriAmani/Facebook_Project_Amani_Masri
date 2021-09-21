@@ -15,6 +15,6 @@ $hash = hash('sha256', $password);
 
 $query = "update users set first_name = ?, last_name = ?, password = ?,gender = ? , city = ?,country =? where id= ? ;";
 $stmt = $connection->prepare($query);
-$stmt->bind_param("sssssssi",$first_name,$last_name,$hash,$gen,$city, $country ,$id);
+$stmt->bind_param("ssssssi",$first_name,$last_name,$hash,$gen,$city, $country ,$id);
 $stmt->execute();
 ?>
